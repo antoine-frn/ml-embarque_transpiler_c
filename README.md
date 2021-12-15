@@ -12,8 +12,10 @@ Enfin il faut appeler l'executable genere par la commande precedente avec les do
 
 Par exemple:
 
-Si l'executable s'appelle -prediction-:
+Si l'executable s'appelle prediction:
         
-            ./prediction 1 2 3
+/prediction 1 2 3
             
-    Sera equivalant au code python model.predict([[1, 2, 3]])
+Sera equivalant au code python regession_lineaire.predict([[1, 2, 3]])
+
+Les packets necessaires sont numpy, joblib et sklearn.
